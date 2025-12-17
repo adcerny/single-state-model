@@ -42,7 +42,7 @@ Consistency is strong inside a session boundary, and controlled across sessions.
 - **Session coherence beats global coherence.** Users experience a session, not a cluster. Optimise consistency where humans feel it.
 - **Explicit writes.** Applications do not casually mutate shared state. Writes are limited, audited, and easy to reason about.
 - **Calm degradation.** When the store is unavailable, apps behave predictably and safely, with clear fallbacks.
-- **Boring over clever.** Prefer a simple contract over an elaborate platform.
+- **Simple over clever.** Prefer a simple contract over an elaborate platform.
 
 ### Non-goals
 
@@ -202,7 +202,7 @@ Design the model assuming the store will be slow or unavailable sometimes. The g
 This model reduces the number of places where session truth can exist. That single decision changes the feel of the whole system.
 
 - Engineers stop chasing inconsistencies across cookies, caches, and service-to-service calls.
-- Identity and entitlements become boring and consistent, which is exactly what they should be.
+- Identity and entitlements become simple and consistent, which is exactly what they should be.
 - Failures become legible. When the store is down, the system behaves in a small set of known ways.
 - Cross-application behaviour feels coherent to users, because it is based on the same session truth.
 - Teams can move faster with less fear, because the rules are few, explicit, and enforceable.
