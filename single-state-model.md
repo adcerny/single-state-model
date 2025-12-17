@@ -2,7 +2,7 @@
 
 ## Problem statement: what modern architectures get wrong
 
-https://media.licdn.com/dms/image/v2/D4E12AQHJsA8WkKTzTQ/article-cover_image-shrink_720_1280/B4EZst7vnCGUAI-/0/1766002198299?e=1767830400&v=beta&t=3KNUlARe1gLHKxevJj5zt014YcmEPKQQLOLm5534OuU
+![Single State Model architecture](single-state-model.png)
 
 A lot of modern systems confuse motion with progress.
 
