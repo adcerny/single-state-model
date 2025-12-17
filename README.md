@@ -9,6 +9,10 @@ Distributed asynchronous coordination is not free. It adds retries, compensation
 The Single State Model prioritises coherence over distribution-by-default. It centralises critical state, keeps the write path explicit, and treats asynchronous workflows as the exception rather than the foundation.
 
 ## Read the full write-up
+
+- [Single State Model – full description](single-state-model.md)
+
+## Other posts:
 - [LinkedIn](https://www.linkedin.com/pulse/single-state-model-restoring-coherence-distributed-systems-adam-cerny-x5ake/?trackingId=sUzuLLRyQZ6WFRmvKQssQA%3D%3D)
 - [dev.to](https://dev.to/adamcerny/single-state-model-architecture-1269)
 - [Medium](https://medium.com/@adamcerny_16041/single-state-model-architecture-d0fa24ff8528)
