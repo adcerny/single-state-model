@@ -1,8 +1,8 @@
 # Single State Model Architecture
 
-## Problem statement: what modern architectures get wrong
+![Single State Model architecture](/Single-State.png)
 
-![Single State Model architecture](single-state-model.png)
+## Problem statement: what modern architectures get wrong
 
 A lot of modern systems confuse motion with progress.
 
